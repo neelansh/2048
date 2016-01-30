@@ -1,0 +1,141 @@
+
+.grid{
+  background-color: #776E65;
+  max-width: 32vmax;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.tile{
+  background-color: rgba(238, 228, 218, 0.35);
+  border : 5px solid #776E65;
+  border-radius: 10px;
+  height: 8vmax;
+  width: 8vmax;
+  max-height: 8vmax;
+  max-width: 8vmax;
+}
+.row{
+  display: flex;
+  justify-content: center;
+}
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.panel{
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  align-items: center;
+}
+.panel>h1{
+  font-size: 5rem;
+}
+.reset{
+  margin-right: 10px;
+}
+.row{
+  margin: 0;
+}
+.lightbox{
+  width: 30vmax;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(100 , 100 , 100 , 0.7);
+  position: fixed;
+  top: 30%;
+  left: 35%;
+  padding-bottom: 20px;
+}
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.tile_2{
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee4da;
+  font-weight: bold;
+}
+.tile_4{
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ede0c8;
+  font-weight: bold;
+}
+.tile_8{
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2b179;
+  font-weight: bold;
+}
+.tile_16{
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f59563;
+  font-weight: bold;
+}
+.tile_32{
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f67c5f;
+  font-weight: bold;
+}.tile_64{
+  font-size: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f65e3b;
+  font-weight: bold;
+}.tile_128{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edcf72;
+  font-weight: bold;
+}.tile_256{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edcc61;
+  font-weight: bold;
+}.tile_512{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edc850;
+  font-weight: bold;
+}
+.tile_1024{
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edc53f;
+  font-weight: bold;
+}
+.tile_2048{
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #edc53f;
+  font-weight: bold;
+}

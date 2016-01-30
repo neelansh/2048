@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>2048</title>
+    <link rel="stylesheet" href="css/materialize.css" charset="utf-8">
+    <link rel="stylesheet" href=" css/base.css" charset="utf-8"></link>
+    <script type="text/javascript" src="./js/jquery-1.12.0.min.js"></script>
+    <script type="text/javascript" src="./js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/2048.js"></script>
+  </head>
+  <body>
+    <header>
+        <div class="head">
+            <div class="panel">
+                <h1>2048</h1>
+                <a  class="waves-effect waves-light btn reset amber darken-4" style="margin-left: 30px">reset</a>
+                <a id="score" class="waves-effect waves-light btn amber darken-4">score: 0</a>
+            </div>
+            <div>
+                <h5>Join the numbers and get to the 2048 tile!</h5>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="grid">
+            <div class="row" >
+                <div class="">
+
+                </div>
+                <div id="t00" class="tile center-align"></div>
+                <div id="t01" class="tile center-align"></div>
+                <div id="t02" class="tile center-align"></div>
+                <div id="t03" class="tile center-align"></div>
+            </div>
+            <div class="row" >
+                <div id="t10" class="tile center-align"></div>
+                <div id="t11" class="tile center-align"></div>
+                <div id="t12" class="tile center-align"></div>
+                <div id="t13" class="tile center-align"></div>
+            </div>
+            <div class="row" >
+                <div id="t20" class="tile center-align"></div>
+                <div id="t21" class="tile center-align"></div>
+                <div id="t22" class="tile center-align"></div>
+                <div id="t23" class="tile center-align"></div>
+            </div>
+            <div class="row" >
+                <div id="t30" class="tile center-align"></div>
+                <div id="t31" class="tile center-align"></div>
+                <div id="t32" class="tile center-align"></div>
+                <div id="t33" class="tile center-align"></div>
+            </div>
+        </div>
+        <div id="gameOverDialog" class="lightbox">
+            <h1>GAME OVER</h1>
+            <a href="#" class="waves-effect waves-light btn reset">reset</a>
+        </div>
+        <div id="2048Dialog" class="lightbox">
+            <h1>YOU WON</h1>
+            <div class="buttons">
+                <a href="#" class="waves-effect waves-light btn reset">reset</a>
+                <a id="continue"href="#" class="waves-effect waves-light btn">continue</a>
+            </div>
+
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $("#gameOverDialog").hide();
+                $("#2048Dialog").hide();
+            });
+            window.addEventListener('load' , game.init);
+        </script>
+    </main>
+  </body>
+</html>

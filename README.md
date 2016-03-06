@@ -4,5 +4,5 @@
 this is a 2048 game clone:
 
 game made with help of materilize and jquery
-it also saves state of the game on players local storage of browser
+it also saves instance of the game on local storage of the browser
 
